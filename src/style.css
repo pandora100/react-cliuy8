@@ -1,0 +1,40 @@
+h1, p {
+  font-family: Lato;
+}
+
+.container {
+  display:flex;
+ 
+
+ }
+
+.izq{
+width:100px;
+height:200px ;
+
+}
+.der{
+width:100px;
+height:200px ;
+background-color: yellow;
+}
+.aparecido {
+   display:none;
+  color:green;
+  overflow: auto;
+  transition: .5s;
+  
+ }
+
+.escondido {
+
+ display:block;
+}
+
+.escondido > li{
+color:red;
+}
+h2 {
+   border: 0.1em solid #999;
+  border-radius: 20px;
+}
